@@ -46,25 +46,37 @@
             <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
             <div class="swiper">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide"><img src="image/ApacheKafka.png" alt=""></div>
-                  <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
-                  ...
-                </div>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="image/ApacheKafka.svg" alt="Livro de kafka e spring boot da AluraBooks"></div>
+                  <div class="swiper-slide"><img src="image/Liderança.svg" alt="Livro sobre liderança da AluraBooks"></div>
+                  <div class="swiper-slide"><img src="image/Javascript.svg" alt="Livro sobre Javascript da AluraBooks"></div>
+                  <div class="swiper-slide"><img src="image/Guia Front-end.svg" alt="Livro Guia Front-end da AluraBooks"></div>
+                  <div class="swiper-slide"><img src="image/Portugol.svg" alt="Livro sobre Portugol da AluraBooks"></div>
+                  <div class="swiper-slide"><img src="image/Acessibilidade.svg" alt="Livro sobre Acessibilidade da AluraBooks"></div>
+                </div>
+                
               
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-              
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+            
               </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
     </body>
     
 </html>

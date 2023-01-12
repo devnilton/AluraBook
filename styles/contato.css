@@ -29,6 +29,7 @@
     border: 1px solid var(--azul-escuro);
     border-radius:24px;
     width: 90%;
+    color: var(--azul-escuro) ;
 }
 
 .contato__email::placeholder {

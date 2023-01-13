@@ -64,3 +64,17 @@
     }
 
 }
+
+@media screen and (min-width: 1728px){
+    .contato{padding: 4em;}
+    .contato__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato__email{
+        border-radius:24px;
+        width: 20%;
+    }
+
+}

@@ -107,3 +107,19 @@
 
 }
 
+@media screen and (min-width: 1728px){
+    
+    .carrossel__card{
+        display:flex;
+        
+    }
+    .swiper{
+        width: 30%;
+        margin: 3em 0 6em auto;
+        }
+    .card {
+        width: 30%;
+        margin: auto auto;
+    }
+}
+
